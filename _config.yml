@@ -5,10 +5,9 @@ description: >-
 baseurl: ""
 url: ""
 github_username: dpb-hydro
-remote_theme: pages-themes/cayman@v0.2.0
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
 exclude:
   - .sass-cache/
   - .jekyll-cache/
