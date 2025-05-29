@@ -4,7 +4,7 @@ permalink: /
 header:
   overlay_image: /assets/images/home-feature.svg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
       url: "/docs/quick-start-guide/"
 excerpt: >
   A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
