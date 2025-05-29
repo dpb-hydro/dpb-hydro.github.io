@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="24.486658mm"
-   height="24.08548mm"
-   viewBox="0 0 24.486658 24.08548"
+   width="42.333332mm"
+   height="25.4mm"
+   viewBox="0 0 42.333332 25.4"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -12,7 +12,7 @@
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   sodipodi:docname="drawing.svg"
+   sodipodi:docname="woodpigeon-feature.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,19 +26,19 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.71891835"
-     inkscape:cx="397.12437"
-     inkscape:cy="559.86886"
+     inkscape:zoom="1.4378367"
+     inkscape:cx="54.248163"
+     inkscape:cy="-18.430466"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="1094"
+     inkscape:window-x="2869"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"><inkscape:page
-       x="0"
-       y="8.90395e-16"
-       width="24.486658"
-       height="24.085482"
+       x="2.0989028e-06"
+       y="2.737627e-06"
+       width="42.333332"
+       height="25.400002"
        id="page2"
        margin="0"
        bleed="0" /></sodipodi:namedview><defs
@@ -46,9 +46,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-90.995275,-49.05005)"><g
+     transform="translate(-128.83069,-101.17297)"><g
        id="g113"
-       transform="matrix(0.27460712,0,0,0.27460712,75.732842,48.950563)"
+       transform="matrix(0.27460712,0,0,0.27460712,122.49159,101.73075)"
        style="stroke-width:0.422422;stroke-dasharray:none"><path
          style="fill:#f6a671;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.422422;stroke-dasharray:none;stroke-opacity:1"
          d="m 139.35318,5.2572767 c 0,0 4.14577,2.7886 5.06041,4.9684003 0.27293,0.65045 0,2.11618 0,2.11618 l -1.28811,-0.64406 -2.4842,-1.38011 -5.24442,-1.8401503 z"

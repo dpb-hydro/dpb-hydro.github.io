@@ -7,26 +7,27 @@ header:
     - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
       url: "/research/"
 excerpt: >
-  Ecohydrology for sustainable agriculture
+  Ecohydrology for sustainable agriculture<br>
+  (This website is a work in progress. Check back in the near future for new content!)
 feature_row:
   - image_path: /assets/images/green-man-feature.svg
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    alt: "physics-driven"
+    title: "Physics-driven"
+    excerpt: "Everything we do is rooted in fundamental physics"
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/spoonbill-feature.svg
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    alt: "international-experience"
+    title: "International experience"
+    excerpt: "Building on five years of experience in the UK and abroad."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/woodpigeon-feature.svg
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    alt: "convenient"
+    title: "Locally sourced"
+    excerpt: "Placeholder."
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
