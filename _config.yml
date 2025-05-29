@@ -4,17 +4,17 @@ minimal_mistakes_skin    : "dirt"
 # Site Settings
 locale                   : "en-GB" # Primary language
 rtl                      : false   # Direction of the page right to left
-title                    : "Bartley Hydro" # Site title
+title                    : "Dan Bartley" # Site title
 title_separator          : "-" # Separates page title from site title
 subtitle                 : "Ecohydrology for sustainable agriculture" # Tagline that appears below site title in masthead
 name                     : "Dan Bartley" # Site author
 description              : "A website about me and my work" # Site description
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+url                      : "https://dpb-hydro.github.io"    # Base hostname & protocol
+baseurl                  : # Site subpath e.g. "/blog"
+repository               : "dpb-hydro/dpb-hydro.github.io"        # GitHub username/repo-name
+teaser                   : "/assets/images/green_man_500x300.svg" # Path to fallback teaser image
+logo                     : "/assets/images/spoonbill_88x88.svg"   # Path to masthead logo
+masthead_title           : "A custom title" # Custom title for masthead
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
