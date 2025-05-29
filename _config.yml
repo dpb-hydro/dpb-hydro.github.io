@@ -39,7 +39,7 @@ author:
   email            : "d.bartley24@imperial.ac.uk"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope"
+      icon: "far fa-fw fa-envelope"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dpb-hydro"
