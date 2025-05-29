@@ -14,9 +14,9 @@ baseurl                  : # Site subpath e.g. "/blog"
 repository               : "dpb-hydro/dpb-hydro.github.io"        # GitHub username/repo-name
 teaser                   : "/assets/images/green_man_500x300.svg" # Path to fallback teaser image
 logo                     : "/assets/images/spoonbill_88x88.svg"   # Path to masthead logo
-masthead_title           : "A custom title" # Custom title for masthead
-breadcrumbs              : # true, false (default)
-words_per_minute         : 200
+masthead_title           : "Dan Bartley" # Custom title for masthead
+breadcrumbs              : false # Use breadcrumbs (for deep sites)
+words_per_minute         : 200 # For estimating reading time of posts
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
@@ -298,13 +298,15 @@ compress_html:
     envs: development
 
 
-# Defaults
+# Default settings
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
+      show_date: true  # Show date of post
+      read_time: false # Show reading time (e.g. "2 minute read")
       layout: single
       author_profile: true
       read_time: true
