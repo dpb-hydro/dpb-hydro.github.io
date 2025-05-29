@@ -52,6 +52,7 @@ footer:
   links:
     - label: "Email"
       icon: "far fa-fw fa-envelope"
+      url: "mailto:d.bartley24@imperial.ac.uk"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dpb-hydro"
