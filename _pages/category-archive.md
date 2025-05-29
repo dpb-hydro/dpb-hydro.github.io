@@ -1,5 +1,5 @@
 ---
-title: "Lovely pets"
+title: "Categories"
 layout: home
 permalink: /categories/
 pagination:

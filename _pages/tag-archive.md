@@ -1,5 +1,5 @@
 ---
-title: "Lovely pets"
+title: "Tags"
 layout: home
 permalink: /tags/
 pagination:
