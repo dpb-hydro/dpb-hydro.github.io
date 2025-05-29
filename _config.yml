@@ -39,15 +39,12 @@ author:
   email            : "d.bartley24@imperial.ac.uk"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://dpb-hydro.github.io"
+      icon: "fas fa-fw fa-envelope"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dpb-hydro"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/danbartley97"
 
 # Site Footer
