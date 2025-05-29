@@ -100,11 +100,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Dan Bartley"
+  avatar           : "assets/images/profile_pic.jpg" # Path to avatar image
+  bio              : "PhD research student"
+  location         : "Oxfordshire & London, UK"
+  email            : "d.bartley24@imperial.ac.uk"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -309,7 +309,6 @@ defaults:
       read_time: false # Show reading time (e.g. "2 minute read")
       layout: single
       author_profile: true
-      read_time: true
       comments: # true
       share: true
       related: true
