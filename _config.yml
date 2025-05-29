@@ -37,12 +37,12 @@ author:
   bio              : "PhD research student"
   location         : "Oxfordshire & London, UK"
   links:
+    - label: "Academic Profile"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://profiles.imperial.ac.uk/d.bartley24"
     - label: "Email"
       icon: "far fa-fw fa-envelope"
       url: "mailto:d.bartley24@imperial.ac.uk"
-    - label: "Academic profile"
-      icon: "fas fa-fw fa-graduation-cap"
-      url: "https://profiles.imperial.ac.uk/d.bartley24"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dpb-hydro"
@@ -53,12 +53,12 @@ author:
 # Footer Settings
 footer:
   links:
-    - label: "Email"
-      icon: "far fa-fw fa-envelope"
-      url: "mailto:d.bartley24@imperial.ac.uk"
     - label: "Academic profile"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://profiles.imperial.ac.uk/d.bartley24"
+    - label: "Email"
+      icon: "far fa-fw fa-envelope"
+      url: "mailto:d.bartley24@imperial.ac.uk"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dpb-hydro"
