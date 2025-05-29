@@ -36,10 +36,10 @@ author:
   avatar           : "assets/images/profile_pic.jpg" # Path to avatar image
   bio              : "PhD research student"
   location         : "Oxfordshire & London, UK"
-  email            : "d.bartley24@imperial.ac.uk"
   links:
     - label: "Email"
       icon: "far fa-fw fa-envelope"
+      url: "mailto:d.bartley24@imperial.ac.uk"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dpb-hydro"
