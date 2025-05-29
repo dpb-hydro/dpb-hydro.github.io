@@ -6,15 +6,21 @@ header:
   actions:
     - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
       url: "/research/"
-excerpt: >
-  Ecohydrology for sustainable agriculture<br>
-  (This website is a work in progress. Check back in the near future for new content!)
+title: Ecohydrology for sustainable agriculture.
+excerpt: (This website is a work in progress. Check back in the near future for new content!)
 feature_row:
   - image_path: /assets/images/green-man-feature.svg
     alt: "physics-driven"
     title: "Physics-driven"
-    excerpt: "Everything we do is rooted in fundamental physics"
+    excerpt: "Bakced by physics, always."
     url: "/docs/configuration/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/woodpigeon-feature.svg
+    alt: "convenient"
+    title: "Cutting edge"
+    excerpt: "Research is active and ongoing."
+    url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/spoonbill-feature.svg
@@ -24,13 +30,6 @@ feature_row:
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/woodpigeon-feature.svg
-    alt: "convenient"
-    title: "Locally sourced"
-    excerpt: "Placeholder."
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
 ---
 
 {% include feature_row %}
