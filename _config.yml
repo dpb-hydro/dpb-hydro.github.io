@@ -30,7 +30,7 @@ search_provider          : lunr # Search provider
 lunr:
   search_within_pages    : true # Lunr index all pages
 
-# My profile
+# Profile Settings
 author:
   name             : "Dan Bartley"
   avatar           : "assets/images/profile_pic.jpg" # Path to avatar image
@@ -47,28 +47,17 @@ author:
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/danbartley97"
 
-# Site Footer
+# Footer Settings
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Email"
+      icon: "far fa-fw fa-envelope"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
+      url: "https://github.com/dpb-hydro"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/danbartley97"
 
 # Reading Files
 include:
