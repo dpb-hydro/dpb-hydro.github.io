@@ -11,22 +11,22 @@ excerpt: (This website is a work in progress. Check back in the near future for 
 feature_row:
   - image_path: /assets/images/green-man-feature.svg
     alt: "physics-driven"
-    title: "Physics-driven"
-    excerpt: "Bakced by physics, always."
+    title: "Coming soon!"
+    excerpt: "Coming soon!"
     url: "/research/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/woodpigeon-feature.svg
     alt: "convenient"
-    title: "Cutting edge"
-    excerpt: "Research is active and ongoing."
+    title: "Coming soon!"
+    excerpt: "Coming soon!"
     url: "/news/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/spoonbill-feature.svg
     alt: "international-experience"
-    title: "International experience"
-    excerpt: "Building on five years of experience in the UK and abroad."
+    title: "Coming soon!"
+    excerpt: "Coming soon!"
     url: "/cv/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
