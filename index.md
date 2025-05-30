@@ -6,7 +6,7 @@ header:
   actions:
     - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
       url: "/about/"
-title: Ecohydrology for sustainable agriculture.
+title: Ecohydrology for sustainable agriculture
 excerpt: (This website is a work in progress. Check back in the near future for new content!)
 feature_row:
   - image_path: /assets/images/green-man-feature.svg
