@@ -5,8 +5,6 @@ title: CV
 author_profile: true
 ---
 
-# Curriculum Vitae
-
 ## Education
 
 **PhD Civil and Environmental Engineering** | *2024 - Present*  
