@@ -7,7 +7,7 @@ header:
     - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
       url: "/about/"
 title: Ecohydrology for sustainable agriculture
-excerpt: Computational approaches to water management in sustainable farming systems
+excerpt: Computational approaches to soil health management in sustainable farming systems
 feature_row:
   - image_path: /assets/images/green-man-feature.svg
     alt: "physics-driven"
