@@ -29,7 +29,3 @@ University of Hong Kong
 - **Programming Languages:** MATLAB, Python, Fortran, Julia
 - **Markup & documentation:** Markdown, LaTeX, HTML, SVG
 - **Specialisation:** Numerical modelling of natural environmental systems
-
----
-
-[Connect with me on LinkedIn](https://www.linkedin.com/in/dpb-hydro/)
