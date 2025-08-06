@@ -7,26 +7,26 @@ header:
     - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
       url: "/about/"
 title: Ecohydrology for sustainable agriculture
-excerpt: (This website is a work in progress. Check back in the near future for new content!)
+excerpt: Computational approaches to water management in sustainable farming systems
 feature_row:
   - image_path: /assets/images/green-man-feature.svg
     alt: "physics-driven"
-    title: "Coming soon!"
+    title: "Physics-driven"
     excerpt: "Coming soon!"
     url: "/research/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/woodpigeon-feature.svg
     alt: "convenient"
-    title: "Coming soon!"
-    excerpt: "Coming soon!"
+    title: "Versatile"
+    excerpt: "Engineering foundation meets computational expertise"
     url: "/news/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/spoonbill-feature.svg
     alt: "international-experience"
-    title: "Coming soon!"
-    excerpt: "Coming soon!"
+    title: "International perspective"
+    excerpt: "A global academic journey"
     url: "/cv/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
