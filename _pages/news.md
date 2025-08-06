@@ -2,6 +2,7 @@
 layout: home
 permalink: /news/
 title: News
+author_profile: true
 ---
 
 ## Cyprus workshop | *[July 2025]*
