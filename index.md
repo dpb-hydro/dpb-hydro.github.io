@@ -12,7 +12,7 @@ feature_row:
   - image_path: /assets/images/green-man-feature.svg
     alt: "physics-driven"
     title: "Physics-driven"
-    excerpt: "Coming soon!"
+    excerpt: "Rooted in process-based understanding"
     url: "/research/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
