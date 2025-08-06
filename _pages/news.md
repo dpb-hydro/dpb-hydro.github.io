@@ -5,10 +5,6 @@ title: News
 author_profile: true
 ---
 
-## Cyprus workshop | *July 2025*
-
-Just returned from an incredible week in Cyprus on a workshop for my PhD project. Between early morning presentations and code tweaks, I managed to explore some of Nicosia and sample the local cuisine. The combination of productive research work and experiencing a new environment has given me fresh perspectives on my modeling approaches, and I'm excited to take this forward into my ongoing simulations. There's something invaluable about getting out of the office and seeing firsthand the complex natural systems we're trying to capture computationally.
-
 ## MPhil graduation | *November 2024*
 
 What an incredible journey it's been! After two years of intensive research and study, I've officially completed my MPhil at HKUST. The final weeks were a whirlwind of thesis submissions, presentations, and that unmistakable mix of exhaustion and exhilaration that comes with reaching a major milestone.

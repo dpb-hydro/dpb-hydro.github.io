@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Celebrating the end of my time in Hong Kong"
-date:   2025-11-30 09:00:00 +0800
+date:   2024-11-30 09:00:00 +0800
 categories: updates
 ---
 
