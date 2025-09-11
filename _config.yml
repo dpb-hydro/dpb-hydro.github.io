@@ -1,5 +1,5 @@
 # Colour scheme (options: "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise")
-minimal_mistakes_skin    : "dirt"
+minimal_mistakes_skin    : "neon"
 
 # Site Settings
 locale                   : "en-GB" # Primary language
