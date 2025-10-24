@@ -196,3 +196,9 @@ defaults:
     values:
       layout: single
       related: false
+  - scope:
+      path: "docs"
+      type: pages
+    values:
+      sidebar:
+        nav: "docs"
