@@ -177,6 +177,12 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  bicester:
+    output: true
+    permalink: /bicester/:path/
+
 # Page Defaults
 defaults:
   - scope: # Posts
@@ -202,3 +208,9 @@ defaults:
     values:
       sidebar:
         nav: "docs"
+
+  - scope:
+      path: ""
+      type: bicester
+    values:
+      layout: single
