@@ -13,7 +13,7 @@ url                      : "https://dpb-hydro.github.io"    # Base hostname & pr
 baseurl                  : # Site subpath e.g. "/blog"
 repository               : "dpb-hydro/dpb-hydro.github.io"        # GitHub username/repo-name
 teaser                   : "/assets/images/green_man_500x300.svg" # Path to fallback teaser image
-logo                     : "/assets/images/spoonbill_88x88.svg"   # Path to masthead logo
+logo                     : "/assets/images/green_man_500x300.svg"   # Path to masthead logo
 masthead_title           : "Dan Bartley" # Custom title for masthead
 breadcrumbs              : false # Use breadcrumbs (for deep sites)
 words_per_minute         : 200 # For estimating reading time of posts
