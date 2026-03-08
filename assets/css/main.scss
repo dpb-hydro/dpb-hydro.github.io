@@ -19,6 +19,9 @@ body {
   background-position: center !important;
   background-attachment: fixed !important;
   background-repeat: no-repeat !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
 }
 
 /* ============================================================
@@ -29,7 +32,7 @@ body {
   background-color: transparent !important;
   border-bottom: none !important;
   box-shadow: none !important;
-  position: absolute !important;
+  position: fixed !important;      /* fixed so it never contributes to page height */
   top: 0;
   left: 0;
   width: 100%;
@@ -111,46 +114,53 @@ body {
 
 .page__hero--overlay {
   position: relative;
-  min-height: 100vh !important;
-  max-height: 100vh !important;
-  overflow: hidden !important;
+  width: 100vw !important;
+  height: 100vh !important;        /* exact viewport height, no more no less */
+  min-height: unset !important;    /* clear any theme defaults */
+  max-height: unset !important;
   margin: 0 !important;
-  padding-top: 2em !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
 }
 
 .page__hero--overlay .btn {
   position: absolute;
-  bottom: 0px;
+  bottom: 20px;
   right: 60px;
 }
 
 /* ============================================================
-   SPLASH LAYOUT
+   SPLASH LAYOUT — strip all extra spacing
    ============================================================ */
 
-.layout--splash .page__hero--overlay {
-  width: 100% !important;
+.layout--splash,
+.layout--splash body,
+.layout--splash #main,
+.layout--splash .page__content,
+.layout--splash .initial-content {
+  margin: 0 !important;
+  padding: 0 !important;
   max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
-.layout--splash #main {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-.layout--splash .page__content {
-  padding: 0 !important;
-  margin: 0 !important;
+.layout--splash .page__hero--overlay {
+  width: 100vw !important;
+  height: 100vh !important;
+  min-height: unset !important;
 }
 
 /* ============================================================
    MAIN CONTENT AREA
+   (border/glow only applies on non-splash pages)
    ============================================================ */
 
-#main {
+body:not(.layout--splash) #main {
   background: rgba(0, 0, 0, 0.80) !important;
   border: 3px solid #00ff88 !important;
   border-radius: 50px 0 50px 0 !important;
