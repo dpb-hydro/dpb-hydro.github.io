@@ -7,3 +7,279 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+.page__hero--overlay {
+  min-height: 100vh;
+}
+.page__hero--overlay {
+  position: relative;
+}
+
+.page__hero--overlay .btn {
+  position: absolute;
+  bottom: 0px;
+  right: 60px;
+}
+/* Remove header background and logo/title */
+.site-header {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+.site-header .site-title,
+.site-header .site-logo,
+.site-header .site-subtitle {
+  display: none !important;
+}
+/* Make the top header transparent and remove black background */
+.site-header {
+  background-color: transparent !important; /* removes the black */
+  box-shadow: none !important;              /* removes the bottom line/shadow */
+}
+
+/* Hide logo and site title/subtitle if still present */
+.site-header .site-title,
+.site-header .site-description,
+.site-header .site-logo {
+  display: none;
+}
+
+/* Optional: adjust nav padding so links float nicely */
+.site-header .wrapper {
+  padding: 0 2rem; /* tweak horizontal padding as needed */
+}
+/* 1️⃣ Make header float over hero */
+.site-header {
+  position: absolute;   /* floats over hero */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent !important; /* removes black bar */
+  box-shadow: none !important;       /* remove shadow */
+  z-index: 10;                       /* stays on top of hero */
+}
+
+/* 2️⃣ Hide logo/title/subtitle */
+.site-header .site-title,
+.site-header .site-description,
+.site-header .site-logo {
+  display: none;
+}
+
+/* 3️⃣ Adjust navigation links */
+.site-header nav a {
+  color: #fff !important; /* white links over hero */
+  font-weight: 500;
+}
+
+/* 4️⃣ Optional: adjust spacing */
+.site-header .wrapper {
+  padding: 1rem 2rem; /* tweak as needed */
+}
+/* --- START OF HEADER FIX --- */
+
+/* --- RE-CENTERED NAVIGATION UNIT --- */
+
+.greedy-nav {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  
+  /* This is the key change: */
+  max-width: 1200px !important; /* Adjust this number (e.g., 1000px) to bring links closer or further */
+  margin: 0 auto !important;    /* Centers the whole navigation block on the page */
+  
+  width: 100% !important;
+  padding: 0 20px !important;
+  background: transparent !important;
+}
+
+/* Ensure the columns don't stretch too far */
+.nav-column {
+  display: flex !important;
+  flex: 1 !important;
+}
+
+/* These maintain the internal alignment within the centered unit */
+.nav-left { justify-content: flex-start !important; }
+.nav-right { justify-content: flex-end !important; }
+
+/* These two columns will stay equal in width */
+.nav-column {
+  display: flex !important;
+  flex: 1 !important; 
+}
+
+.nav-left {
+  justify-content: flex-start !important;
+}
+
+.nav-right {
+  justify-content: flex-end !important;
+}
+
+/* Styling the actual lists */
+.visible-links {
+  display: flex !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 40px !important; /* Increased gap to spread buttons more */
+}
+
+/* Styling the Title */
+.site-title {
+  flex: 0 0 auto !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  letter-spacing: 4px !important; 
+  margin: 0 60px !important; /* Larger margin to make Dan Bartley "shine" */
+  white-space: nowrap !important;
+}
+
+/* Fix for the clipping "A" in About */
+.masthead__menu-item {
+  margin: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Fix for search icon color */
+.search__toggle {
+  color: #00ff88 !important;
+  margin-left: 20px !important;
+}
+
+/* --- END OF HEADER FIX --- */
+/* --- MAKE HEADER TRANSPARENT --- */
+
+.masthead {
+  background-color: transparent !important;
+  border-bottom: none !important;
+  position: absolute !important; /* This sits the nav ON TOP of the image */
+  width: 100%;
+  z-index: 20; /* Ensures it stays above the image */
+}
+
+/* Ensure the text stays white/visible against the dark hero image */
+.site-title, 
+.masthead__menu-item a, 
+.search__toggle {
+  color: #fff !important;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* Adds a tiny shadow so text is readable on light parts of the leaf */
+}
+
+/* Removes any default padding/margin that might push the hero image down */
+.initial-content {
+  padding-top: 0 !important;
+}
+
+.page__hero--overlay {
+  margin-top: 0 !important;
+  min-height: 100vh !important; /* Forces hero to fill the full screen height */
+}
+/* --- REMOVE BLACK NAVIGATION BACKGROUND --- */
+
+.masthead {
+  background-color: transparent !important; /* Removes the solid color */
+  border-bottom: none !important;           /* Removes the thin line at the bottom */
+  position: absolute !important;            /* Lifts the nav so the hero can slide under */
+  width: 100%;
+  z-index: 10;
+}
+
+/* Ensure the hero section starts at the very top of the screen */
+.page__hero--overlay {
+  margin-top: 0 !important;
+  padding-top: 2em !important; /* Gives the nav items a little breathing room from the top */
+}
+
+/* Make sure all text in the nav is white and readable */
+.site-title, 
+.masthead__menu-item a, 
+.search__toggle {
+  color: #fff !important;
+  text-shadow: 0 1px 10px rgba(0,0,0,0.3); /* Adds a subtle shadow so white text doesn't get lost on the leaf */
+}
+/* --- CLEAN FULL-WIDTH HOMEPAGE HERO --- */
+
+/* Remove any background motif */
+body {
+  background-image: none !important;
+  background-color: #000 !important;
+}
+
+/* Remove container border styling globally */
+#main {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+}
+
+/* Make homepage hero full height */
+.page__hero--overlay {
+  min-height: 100vh !important;
+  margin: 0 !important;
+}
+
+/* Ensure hero fills full width naturally */
+.layout--splash .page__hero--overlay {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+body {
+  background-color: #000000 !important;
+  background-image: url('../images/motif.png') !important; /* Adjust path if needed */
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important; /* This keeps the face from scrolling */
+  background-repeat: no-repeat !important;
+}
+#main {
+  background: rgba(0, 0, 0, 0.80) !important; /* Semi-transparent to show the motif behind it */
+  border: 3px solid #00ff88 !important;        /* Dan's neon green */
+  border-radius: 50px 0 50px 0 !important;    /* Creates the asymmetrical folder look */
+  padding: 40px !important;
+  margin-top: 50px !important;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.1); /* Subtle green glow */
+}
+body {
+  background-color: #000000 !important;
+  background-image: url('../images/motif.png') !important; /* Adjust path if needed */
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important; /* This keeps the face from scrolling */
+  background-repeat: no-repeat !important;
+}
+#main {
+  background: rgba(0, 0, 0, 0.80) !important; /* Semi-transparent to show the motif behind it */
+  border: 3px solid #00ff88 !important;        /* Dan's neon green */
+  border-radius: 50px 0 50px 0 !important;    /* Creates the asymmetrical folder look */
+  padding: 40px !important;
+  margin-top: 50px !important;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.1); /* Subtle green glow */
+}
+/* --- FULL SCREEN HERO BETWEEN NAV + FOOTER --- */
+
+/* Remove page padding that creates white gaps */
+.layout--splash #main {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Make hero fill full viewport minus nav */
+.layout--splash .page__hero--overlay {
+  min-height: 120vh !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+}
+
+/* Remove spacing under hero */
+.layout--splash .page__content {
+  padding: 0 !important;
+  margin: 0 !important;
+}

@@ -1,6 +1,6 @@
 ---
 title: "Tags"
-layout: home
+layout: single
 permalink: /tags/
 pagination:
   enabled: true

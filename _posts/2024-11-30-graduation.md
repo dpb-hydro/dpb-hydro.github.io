@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  "Celebrating the end of my MPhil studies"
-date:   2024-11-30 09:00:00 +0800
+layout: single
+title: "Celebrating the end of my MPhil studies"
+date: 2024-11-30 09:00:00 +0800
 categories: updates
+author_profile: false
+classes: wide
 ---
 
 What an incredible journey it's been! After two years of intensive research and study, I've officially completed my MPhil at HKUST. The final weeks were a whirlwind of thesis submissions, presentations, and that unmistakable mix of exhaustion and exhilaration that comes with reaching a major milestone.

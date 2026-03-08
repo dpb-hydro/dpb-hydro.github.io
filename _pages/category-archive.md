@@ -1,6 +1,6 @@
 ---
 title: "Categories"
-layout: home
+layout: single
 permalink: /categories/
 pagination:
   enabled: true

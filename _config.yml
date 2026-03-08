@@ -4,17 +4,17 @@ minimal_mistakes_skin    : "neon"
 # Site Settings
 locale                   : "en-GB" # Primary language
 rtl                      : false   # Direction of the page right to left
-title                    : "Dan Bartley" # Site title
+title                    : "" # Site title
 title_separator          : "-" # Separates page title from site title
-subtitle                 : "Ecohydrology for sustainable agriculture" # Tagline that appears below site title in masthead
-name                     : "Dan Bartley" # Site author
+# subtitle                 : "Ecohydrology for sustainable agriculture" # Tagline that appears below site title in masthead
+# name                     : "Dan Bartley" # Site author
 description              : "A website about me and my work" # Site description
 url                      : "https://dpb-hydro.github.io"    # Base hostname & protocol
 baseurl                  : # Site subpath e.g. "/blog"
 repository               : "dpb-hydro/dpb-hydro.github.io"        # GitHub username/repo-name
 teaser                   : "/assets/images/green_man_500x300.svg" # Path to fallback teaser image
-logo                     : "/assets/images/spoonbill_88x88.svg"   # Path to masthead logo
-masthead_title           : "Dan Bartley" # Custom title for masthead
+# logo                     : "/assets/images/green_man_500x300.svg"   # Path to masthead logo
+# masthead_title           : "Dan Bartley" # Custom title for masthead
 breadcrumbs              : false # Use breadcrumbs (for deep sites)
 words_per_minute         : 200 # For estimating reading time of posts
 enable_copy_code_button  : false # Enable copy code button in code blocks
@@ -195,7 +195,7 @@ defaults:
       author_profile: true
       comments: false
       share: false
-      related: true
+      related: false
   - scope: # Pages
       path: ""
       type: pages
