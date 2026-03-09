@@ -283,3 +283,10 @@ body {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+.layout--splash .page__hero--overlay {
+  background-size: cover !important;
+  background-position: center center !important;
+  min-height: 0 !important;
+  height: 100vh !important;
+}
