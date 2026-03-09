@@ -25,5 +25,4 @@ University of Hong Kong
 ## Technical Skills
 
 - **Programming Languages:** MATLAB, Python, Fortran, Julia
-- **Markup & documentation:** Markdown, LaTeX, HTML, SVG
 - **Specialisation:** Numerical modelling of natural environmental systems

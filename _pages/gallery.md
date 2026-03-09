@@ -22,3 +22,5 @@ gallery:
 <div class="gallery-container">
   {% include gallery %}
 </div>
+
+This page is a work in progress, check back later for more!
