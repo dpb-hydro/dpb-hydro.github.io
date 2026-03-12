@@ -1,7 +1,8 @@
 ---
-title: "Tags"
-layout: single
+title: "Posts by Tag"
 permalink: /tags/
+layout: tags
+author_profile: true
 pagination:
   enabled: true
 ---
