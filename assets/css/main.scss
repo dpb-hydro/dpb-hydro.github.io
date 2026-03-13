@@ -28,18 +28,21 @@ body {
   border: 3px solid #00ff88 !important;
   border-radius: 50px 0 50px 0 !important;
   padding: 40px !important;
-  margin-top: 50px !important;
+  margin: 50px auto !important;  /* changed from margin-top: 50px to centre horizontally */
+  max-width: 1200px !important;  /* gives it a width to centre within */
   box-shadow: 0 0 20px rgba(0, 255, 136, 0.1);
 }
 
 .layout--splash #main {
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 50px auto !important;
 }
 
-.layout--splash .page__content {
-  padding: 0 !important;
-  margin: 0 !important;
+.splash .page__content {
+  max-width: 740px;
+  padding: 40px !important;
+  margin: 0 auto !important;
+  text-align: left;
 }
 
 /* ============================================================

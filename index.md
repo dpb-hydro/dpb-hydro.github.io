@@ -31,7 +31,6 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
-<pre> </pre>
 # Hi there!
 
 My name is Dan, and I'm a PhD student in the department of Civil and Environmental Engineering at Imperial College London.
