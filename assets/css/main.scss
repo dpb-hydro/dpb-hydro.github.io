@@ -161,7 +161,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-size: cover !important;
+  background-size: 30% !important;
   background-position: center center !important;
-  height: 10vh !important;
+  background-repeat: no-repeat !important;  /* prevents tiling */
+  height: 20vh !important;
+  background-color: #423f3f !important;
+}
+
+@media (orientation: portrait) {
+  .layout--splash .page__hero--overlay {
+    height: 8vh !important;  /* adjust to taste */
+  }
 }

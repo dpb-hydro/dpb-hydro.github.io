@@ -3,11 +3,12 @@ layout: splash
 permalink: /
 author_profile: false # This removes the invisible sidebar space
 header:
-  overlay_image: /assets/images/front_logo.svg
-  overlay_filter: 0.5
   actions:
     - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
       url: "/about/"
+  overlay_color: "#423f3f"
+  overlay_filter: 0
+  overlay_image: /assets/images/front_logo.svg
 feature_row:
   - image_path: /assets/images/green-man-feature.svg
     alt: "physics-driven"
@@ -31,6 +32,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---
+
 # Hi there!
 
 My name is Dan, and I'm a PhD student in the department of Civil and Environmental Engineering at Imperial College London.
