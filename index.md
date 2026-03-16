@@ -13,7 +13,7 @@ feature_row:
   - image_path: /assets/images/green-man-feature.svg
     alt: "physics-driven"
     title: "Physics-driven"
-    excerpt: "Bakced by physics, always."
+    excerpt: "Backed by physics, always."
     url: "/research/"
     btn_class: "btn--primary"
     btn_label: "Learn more"

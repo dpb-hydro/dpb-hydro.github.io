@@ -11,8 +11,10 @@ gallery:
     image_path: /assets/images/double_gyre.gif
     alt: "Animation of the Double Gyre toy problem"
     title: "The mesmerising Double Gyre"
-  - url: /assets/images/project3.jpg
-    image_path: /assets/images/project3.jpg
+  - url: /assets/images/jules-meetup.jpeg
+    image_path: /assets/images/jules-meetup.jpeg
+    alt: "JULES meeting group photo"
+    title: "Attendees at the JULES Annual Science Meeting 2025"
 classes: wide
 author_profile: true
 ---
