@@ -40,6 +40,6 @@ My name is Dan, and I'm a PhD student in the department of Civil and Environment
 
 ## My website: a work in progress
 
-Thank you for stopping by! I am currently developing this website as a little side project for myself, so apologies for any content you come across that isn't ready yet! In the spirit of this, please see below some placeholder links while I figure out how to make them work!
+Thank you for stopping by! I am currently developing this website as a personal side project, so apologies for any content you come across that isn't ready yet! In the spirit of this, please see below some placeholder links while I figure out how to make them work!
 
 {% include feature_row %}
