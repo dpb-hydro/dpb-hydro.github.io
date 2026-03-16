@@ -4,7 +4,7 @@ minimal_mistakes_skin    : "neon"
 # Site Settings
 locale                   : "en-GB" # Primary language
 rtl                      : false   # Direction of the page right to left
-title                    : "" # Site title
+title                    : "Dan Bartley" # Site title
 title_separator          : "-" # Separates page title from site title
 # subtitle                 : "Ecohydrology for sustainable agriculture" # Tagline that appears below site title in masthead
 # name                     : "Dan Bartley" # Site author
@@ -64,7 +64,7 @@ footer:
       url: "https://github.com/dpb-hydro"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/danbartley97"
+      url: "https://www.linkedin.com/in/dpb-hydro"
 
 # Reading Files
 include:
@@ -202,15 +202,3 @@ defaults:
     values:
       layout: single
       related: false
-  - scope:
-      path: "docs"
-      type: pages
-    values:
-      sidebar:
-        nav: "docs"
-
-  - scope:
-      path: ""
-      type: bicester
-    values:
-      layout: single

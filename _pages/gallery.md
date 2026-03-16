@@ -3,16 +3,18 @@ layout: single
 title: "Gallery"
 permalink: /gallery/
 gallery:
-  - url: /assets/images/project1.jpg
-    image_path: /assets/images/project1.jpg
-    alt: "Scientific Fieldwork"
-    title: "Fieldwork 2024"
-  - url: /assets/images/project2.jpg
-    image_path: /assets/images/project2.jpg
-    alt: "Data Visualization"
-    title: "Hydrology Data Charts"
+  - url: /assets/images/cyprus.jpeg
+    image_path: /assets/images/cyprus.jpeg
+    alt: "Photograph of me and my research group at the University of Cyprus"
+    title: "Me and the team at UCY"
+  - url: /assets/images/double_gyre.gif
+    image_path: /assets/images/double_gyre.gif
+    alt: "Animation of the Double Gyre toy problem"
+    title: "The mesmerising Double Gyre"
   - url: /assets/images/project3.jpg
     image_path: /assets/images/project3.jpg
+classes: wide
+author_profile: true
 ---
 
 <div class="gallery-container">

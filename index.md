@@ -1,7 +1,6 @@
 ---
 layout: splash
 permalink: /
-author_profile: false # This removes the invisible sidebar space
 header:
   actions:
     - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
@@ -32,6 +31,7 @@ feature_row:
     url: "/cv/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
+classes: wide
 ---
 
 # Hi there!

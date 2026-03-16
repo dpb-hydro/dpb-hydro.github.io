@@ -2,8 +2,8 @@
 layout: single
 title: "Celebrating the end of my MPhil studies"
 date: 2024-11-30 09:00:00 +0800
+tags: updates
 categories: updates
-author_profile: false
 classes: wide
 ---
 
