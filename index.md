@@ -9,6 +9,7 @@ header:
   overlay_color: "#423f3f"
   overlay_filter: 0
   overlay_image: /assets/images/front_logo.svg
+title: Home
 feature_row:
   - image_path: /assets/images/green-man-feature.svg
     alt: "physics-driven"
