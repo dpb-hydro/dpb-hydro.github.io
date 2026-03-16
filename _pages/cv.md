@@ -3,6 +3,7 @@ layout: single
 permalink: /cv/
 title: CV
 author_profile: true
+classes: wide
 ---
 
 ## Technical Skills
