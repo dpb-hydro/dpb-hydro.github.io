@@ -4,16 +4,16 @@ permalink: /
 header:
   actions:
     - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
-      url: "/about/"
+      url: "/reflections/omnia/"
   overlay_color: "#423f3f"
   overlay_filter: 0
   overlay_image: /assets/images/front_logo.svg
 title: Home
 feature_row:
   - image_path: /assets/images/green-man-feature.svg
-    alt: "physics-driven"
-    title: "Physics-driven"
-    excerpt: "Backed by physics, always."
+    alt: "About me"
+    title: "About me"
+    excerpt: "My background and interests."
     url: "/research/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -34,12 +34,14 @@ feature_row:
 classes: wide
 ---
 
+⚠️ Thank you for stopping by! I am currently developing this website as a personal side project; apologies for any content you come across that isn't ready yet! ⚠️
+
 # Hi there!
 
 My name is Dan, and I'm a PhD student in the department of Civil and Environmental Engineering at Imperial College London.
 
-## My website: a work in progress
+My interests lie in the numerical modelling of earth systems, and how closely these models do or do not mirror these systems. I am keen on efficient computation and its application to classical areas of engineering mathematics.
 
-Thank you for stopping by! I am currently developing this website as a personal side project, so apologies for any content you come across that isn't ready yet! In the spirit of this, please see below some placeholder links while I figure out how to make them work!
+This website is about my background, research, and broader interests.
 
 {% include feature_row %}
