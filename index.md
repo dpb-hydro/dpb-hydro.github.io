@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/front_logo.svg
 title: Home
 feature_row:
-  - image_path: /assets/images/green-man-feature.svg
+  - image_path: /assets/images/home_page_profile.jpg 
     alt: "About me"
     title: "About me"
     excerpt: "My background and interests."
