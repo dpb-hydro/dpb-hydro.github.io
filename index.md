@@ -13,7 +13,7 @@ feature_row:
   - image_path: /assets/images/resized_home_page_profile.jpg 
     alt: "About me"
     title: "About me"
-    excerpt: "My background"
+    excerpt: "My background and experience"
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
