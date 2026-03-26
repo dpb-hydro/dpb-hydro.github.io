@@ -13,28 +13,28 @@ feature_row:
   - image_path: /assets/images/home_page_profile.jpg 
     alt: "About me"
     title: "About me"
-    excerpt: "My background and interests."
+    excerpt: "My background"
     url: "/research/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/woodpigeon-feature.svg
-    alt: "convenient"
-    title: "Cutting edge"
-    excerpt: "Research is active and ongoing."
+  - image_path: /assets/images/pendulum_stock.jpg
+    alt: "A pendulum"
+    title: "My research"
+    excerpt: "Computation for earth system modelling"
     url: "/news/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/spoonbill-feature.svg
-    alt: "international-experience"
-    title: "International experience"
-    excerpt: "Building on five years of experience in the UK and abroad."
-    url: "/cv/"
+  - image_path: /assets/images/treachery.jpg
+    alt: "The Treachery of Images painting"
+    title: "Blog"
+    excerpt: "My travels, interests, and reflections"
+    url: "/news/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 classes: wide
 ---
 
-⚠️ Thank you for stopping by! I am currently developing this website as a personal side project; apologies for any content you come across that isn't ready yet! ⚠️
+⚠️ Thank you for stopping by! This is a new website which I am actively developing as a personal side project; apologies for any content you come across that isn't ready yet! ⚠️
 
 # Hi there!
 
