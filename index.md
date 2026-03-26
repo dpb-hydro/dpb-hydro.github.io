@@ -10,21 +10,21 @@ header:
   overlay_image: /assets/images/front_logo.svg
 title: Home
 feature_row:
-  - image_path: /assets/images/home_page_profile.jpg 
+  - image_path: /assets/images/resized_home_page_profile.jpg 
     alt: "About me"
     title: "About me"
     excerpt: "My background"
-    url: "/research/"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/pendulum_stock.jpg
+  - image_path: /assets/images/resized_pendulum_stock.jpg
     alt: "A pendulum"
     title: "My research"
     excerpt: "Computation for earth system modelling"
-    url: "/news/"
+    url: "/research/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/treachery.jpg
+  - image_path: /assets/images/resized_treachery.jpg
     alt: "The Treachery of Images painting"
     title: "Blog"
     excerpt: "My travels, interests, and reflections"
