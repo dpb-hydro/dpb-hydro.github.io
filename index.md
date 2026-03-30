@@ -26,7 +26,7 @@ feature_row:
     btn_label: "Learn more"
   - image_path: /assets/images/resized_treachery.jpg
     alt: "The Treachery of Images painting"
-    title: "Blog"
+    title: "News"
     excerpt: "My travels, interests, and reflections"
     url: "/news/"
     btn_class: "btn--primary"
@@ -34,14 +34,12 @@ feature_row:
 classes: wide
 ---
 
-⚠️ Thank you for stopping by! This is a new website which I am actively developing as a personal side project; apologies for any content you come across that isn't ready yet! ⚠️
-
 # Hi there!
 
 My name is Dan, and I'm a PhD student in the department of Civil and Environmental Engineering at Imperial College London.
 
-My interests lie in the numerical modelling of earth systems, and how closely these models do or do not mirror these systems. I am keen on efficient computation and its application to classical areas of engineering mathematics.
+My interest lies in the numerical modelling of earth systems, with a primary focus on land surface ecosystems. 
 
-This website is about my background, research, and broader interests.
+On this website you can find out more about my background, research, and broader interests.
 
 {% include feature_row %}
