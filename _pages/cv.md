@@ -30,7 +30,7 @@ classes: wide
 Imperial College London 🇬🇧
 
 #### MPhil Marine Environmental Science
-**(Physical Oceanography)**
+**(Physical Oceanography)**  
 *2022 - 2024*  
 The Hong Kong University of Science and Technology 🇭🇰
 
