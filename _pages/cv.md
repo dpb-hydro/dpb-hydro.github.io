@@ -14,6 +14,7 @@ classes: wide
 * Computational methods
 * Dynamical systems
 * Engineering mathematics
+* High-performance computing
 
 #### Computing languages
 
@@ -28,7 +29,8 @@ classes: wide
 *2024 - Present*  
 Imperial College London 🇬🇧
 
-#### MPhil Physical Oceanography
+#### MPhil Marine Environmental Science
+**(Physical Oceanography)**
 *2022 - 2024*  
 The Hong Kong University of Science and Technology 🇭🇰
 
