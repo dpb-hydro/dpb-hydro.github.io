@@ -15,6 +15,10 @@ gallery:
     image_path: /assets/images/resized_jules-meetup.jpeg
     alt: "JULES meeting group photo"
     title: "Attendees at the JULES Annual Science Meeting 2025"
+  - url: /assets/images/pendulum.gif
+    image_path: /assets/images/pendulum.gif
+    alt: "Animation of a forced damped pendulum"
+    title: "Fun with pendulums"
 classes: wide
 author_profile: true
 ---
