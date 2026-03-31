@@ -17,9 +17,9 @@ teaser                   : "/assets/images/green_man_500x300.svg" # Path to fall
 # masthead_title           : "Dan Bartley" # Custom title for masthead
 breadcrumbs              : false # Use breadcrumbs (for deep sites)
 words_per_minute         : 200 # For estimating reading time of posts
-enable_copy_code_button  : false # Enable copy code button in code blocks
-copyright                : # Copyright name, defaults to site.title
-copyright_url            : # Copyright URL, defaults to site.url
+enable_copy_code_button  : true # Enable copy code button in code blocks
+copyright                : "Dan Bartley"                 # Copyright name, defaults to site.title
+copyright_url            : "https://dpb-hydro.github.io" # Copyright URL, defaults to site.url
 comments:
   provider               : false # Comments
 atom_feed:
@@ -195,7 +195,7 @@ defaults:
       author_profile: true
       comments: false
       share: false
-      related: false
+      related: true
   - scope: # Pages
       path: ""
       type: pages
