@@ -10,22 +10,54 @@ header:
 related: true
 ---
 
-⚠️**Post under construction**: please return again another day⚠️
+*The philosophy of the cranes, presses, and pumps is finished and clear like a circle. But is your philosophy less circular? The beauty of a mechanism lies in its immutable, precise rhythm, like that of a pendulum. But have you not become as precise as a pendulum, you who are brought up on the system of Taylor? Yes, but there is one difference: MECHANISMS HAVE NO FANCY. Did you ever notice a pump cylinder during its work show upon its face a wide, distant, sensuously-dreaming smile? Did you ever hear cranes restlessly toss about and sigh at night, during the hours designed for rest? NO!*   
+|| Yevgeny Zamyatin, *We*
 
-Oh boy, is this not one of the most relatable videos I've seen:
+{% include figure image_path="/assets/images/hare_tortoise.jpg" alt="The hare and tortoise clock, Rugby, UK" caption="The hare and tortoise clock, Rugby, UK" %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZSSNFkEMv24?si=rT7G4JesS1Tgyf1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+One of my maths teachers at secondary school had a great saying: *when it's tricky, draw a piccy*. I've found this philosophy extremely helpful during my studies, not least with my recent revisit to this excellent course on [differential equations](https://www.coursera.org/learn/differential-equations-engineers?specialization=mathematics-engineers). This is a quintessential subject in all branches of engineering; in my case the most prominent example that comes to mind is the undergraduate course in the dynamics of structures which I sat. As important as the subject is I must confess my intuition for differential equations has always been shaky (pun intended). But when they describe systems which we look at every day, this oughtn't be the case. What has really helped me has been making animations of the systems themselves rather than just plotting phase diagrams of response variables. I think the difference is that experiencing time as a spatial dimension is counterintuitive, whereas when we experience it as we as humans experience time then these complex representations collapse to something much more intuitive. This is why chaos was discovered so late; simply because we couldn't visualise these things easily.
 
-I'm sure everyone can relate to the blank feeling when something is explained to you for the first time. Perhaps for many subjects this is how it stays in your mind forever, just a shaky concept that you hope you never have to explain to somebody in simple terms. Perhaps you can remember times when a long-misunderstood concept finally clicked, perhaps just because of one particular way that somebody put it. It might not have been particularly nuanced or insightful, but whatever it was, the understanding is suddenly a lot clearer. And you wonder why it really took you so long it it really is so simple. It feels as though all it takes to understand it was just that one explanation who put it the right way. I think if we feel negative about that then we might be forgetting about the fallacy of the [Straw that broke the camel's back](https://en.wikipedia.org/wiki/Straw_that_broke_the_camel%27s_back); all of that misunderstanding might have been a prerequisite for understanding it at that time. And there is also the idea that the way you understood it might be different than how somebody else's brain works. While my post on [Scientific Parables](/reflections/parables/) contains more about 
+Recently I have been getting to grips with the Julia computing ecosystem, and have developed a wrapper for [OrdinaryDiffEq.jl](https://docs.sciml.ai/OrdinaryDiffEq/stable/) for playing with dynamical syatems toys. Ultimately playing is the best way to make discoveries. When I did work experience at a mechanical ewngineering company I was jealous that they were able to fidde around with the components that they designeds, whereas this is less simple to do in civil engineering! But in my line of work which is now modelling, a sandbox such as this is really useful. Below I wanted to share some of my animations because above all else, they are really fun!
 
-{% include figure image_path="/assets/images/hare_tortoise.jpg" alt="The hare and tortoise clock, Rugby" caption="The hare and tortoise clock, Rugby" %}
+## Unforced pendulums
 
-I must say until recently it eluded me to think how a clock pendulum actually works. Simple harmonic motion we learned at school didn't have damliing and just ran forever. For the damped case, for whatever reason this never really would land with me. But since undertaking this course (LINK) this has improved significantly. 
+We can launch a pendulum by dropping it from rest:
 
-As my maths teacher used to say: When it's tricky draw a piccy
+{% include figure image_path="/assets/images/unforced_pendulum_dropped.gif" alt="The hare and tortoise clock, Rugby, UK" caption="The hare and tortoise clock, Rugby, UK" %}
 
-{% include figure image_path="/assets/images/pendulum.gif" alt="Animation of a forced damped pendulum" caption="Fun with pendulums" %}
+And we can also launch it with a nonzero initial velocity:
 
-Intuiitively this is what would happen, and seeing it animated makes more sense than just the line plot. A major breakthrough in my understanding was actually putting to bed the swing analogy because I feel that this had been getting in the way somewhat. In this case, the foce can *only* be applied at the natural frequency of the spring, but in the model the force can be applied anywhere. Finally I realised how a clock works.
+{% include figure image_path="/assets/images/unforced_pendulum_launched.gif" alt="The hare and tortoise clock, Rugby, UK" caption="The hare and tortoise clock, Rugby, UK" %}
 
-Opening the lid off this idea has given me a fresh perspective on dynamical systems modelling. In what other systems we can reduce the model to an inertia component, damping, restoring force and applied force. I wonder if understnading this takes geophysical fluid dynamics down a notch especially with regards to coriolis. Can we see other models through this lens to make them less scary? As a first port of call I decided to return to my beloved test bed, the Double Gyre.
+## Forced pendulums
+
+If we apply a periodic forcing to the pendulum, it eventually reaches a steady state controlled by that forcing. This steady state can be found through nondimensionalisation:
+
+{% include figure image_path="/assets/images/forced_pendulum.gif" alt="The hare and tortoise clock, Rugby, UK" caption="The hare and tortoise clock, Rugby, UK" %}
+
+We can also do a basic simulation of a clock:
+
+{% include figure image_path="/assets/images/clock_pendulum.gif" alt="The hare and tortoise clock, Rugby, UK" caption="The hare and tortoise clock, Rugby, UK" %}
+
+## The Double Gyre
+
+We can use `Springies.jl` to play with advection in the canonical Double Gyre problem:
+
+{% include figure image_path="/assets/images/double_gyre.gif" alt="The hare and tortoise clock, Rugby, UK" caption="The hare and tortoise clock, Rugby, UK" %}
+
+What if, instead of a velocity field, we were to think of the Double Gyre over a field of grass? Let's model the grass blades as flexible beams; we'll decouple the x and y components so that we can think of two springs, one in the x and the other in the y direction:
+
+{% include figure image_path="/assets/images/grassy_gyre.gif" alt="The hare and tortoise clock, Rugby, UK" caption="The hare and tortoise clock, Rugby, UK" %}
+
+## The Three-body problem
+
+Here is an example of the three-body problem in 2D:
+
+{% include figure image_path="/assets/images/three_body_short.gif" alt="The hare and tortoise clock, Rugby, UK" caption="The hare and tortoise clock, Rugby, UK" %}
+
+If we run the simulation for longer, we can see the formation of a bound pair and the ejection of the third body. This is sometimes called the "Heggie-Hills law" (or the statistical escape hypothesis):
+
+{% include figure image_path="/assets/images/three_body_long.gif" alt="The hare and tortoise clock, Rugby, UK" caption="The hare and tortoise clock, Rugby, UK" %}
+
+*Why is the dance beautiful? Answer: because it is **nonfree** movement, because all of the fundamental significance of the dance lies precisely in its aesthetic subjection, its ideal nonfreedom.*   
+|| Yevgeny Zamyatin, *We*

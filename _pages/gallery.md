@@ -20,6 +20,10 @@ gallery:
     image_path: /assets/images/resized_cyprus.jpeg
     alt: "Photograph of me and my research group at the University of Cyprus"
     title: "Me and the team at UCY"
+  - url: /assets/images/hkust_grad.jpg
+    image_path: /assets/images/hkust_grad.jpg
+    alt: "Celebrating my MPhil graduation at HKUST"
+    title: "Celebrating my MPhil graduation at HKUST"
 classes: wide
 author_profile: true
 ---
