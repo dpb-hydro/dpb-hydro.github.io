@@ -50,7 +50,7 @@ or launch it with a nonzero initial velocity:
 
 {% include figure image_path="/assets/images/unforced_pendulum_launched.gif" alt="An unforced pendulum launched with an initial velocity" caption="An unforced pendulum launched with an initial velocity" %}
 
-Either way, the resulting motion is a familiar one: the pendulum swings back and forth, with an amplitude that gradually decreases over time. Seeing the equation $m l \ddot{\theta} + c l \dot{\theta} + m g \sin\theta = 0$ brought to life in this way really cuts it down to size.
+Either way, the resulting motion is a familiar one: the pendulum swings back and forth, with an amplitude that gradually decreases over time. Seeing the scary pendulum equation brought to life in this way really cuts it down to size.
 
 ### Forced pendulums
 
