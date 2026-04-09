@@ -25,12 +25,15 @@ Recently I've been getting to grips with the Julia ecosystem, and have put toget
 
 The equation for a forced pendulum looks scary:
 
-\[m l \ddot{\theta} + c l \dot{\theta} + m g \sin\theta = F,\]
+```math
+m l \ddot{\theta} + c l \dot{\theta} + m g \sin\theta = F,
+```
 
 but it's just describing a sum of forces. In this form, the equation is simply saying
 
-\[\text{Internal forces} = \text{External force}.\]
-
+```math
+\text{Internal forces} = \text{External force}.
+```
 Conceptually, what do the internal forces represent?
 
 - $m l \ddot{\theta}$: inertia, because the pendulum has mass and is accelerating,
