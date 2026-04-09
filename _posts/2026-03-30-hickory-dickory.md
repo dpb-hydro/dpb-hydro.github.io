@@ -80,7 +80,7 @@ Looking out of the window recently, I was inspired by the waves rippling through
 
 {% include figure image_path="/assets/images/grassy_gyre.gif" alt="The grassy Double Gyre" caption="The grassy Double Gyre" %}
 
-I haven't thought carefully about the physical relevance of this yet, but it looks pretty! Note that although the motion may appear collective, the restoring force on each particle depends only on its own initial position, not on its neighbours. A natural extension might be to introduce inter-particle restoring forces; the *Jelly Gyre*, perhaps?.
+I haven't thought carefully about the physical relevance of this yet, but it looks pretty! Note that although the motion may appear collective, the restoring force on each particle depends only on its own initial position, not on its neighbours. A natural extension might be to introduce inter-particle restoring forces; the *Jelly Gyre*, perhaps?
 
 ## The Three-Body Problem
 
