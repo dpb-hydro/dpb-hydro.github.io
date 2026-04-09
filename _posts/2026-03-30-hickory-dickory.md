@@ -76,7 +76,7 @@ One of my original motivations for developing `Springies.jl` was to revisit the 
 
 Early in my MPhil, this was a useful playground for thinking about how quantities are transported by moving fluids. The image it always conjures for me is the little tornado of leaves and Freddo wrappers that used to swirl in front of the newsagent near my school, caused by the way the surrounding walls channelled the wind. In this example, each particle moves at exactly the velocity prescribed by the flow field at its current time and location. Beautiful as it is, the analogy breaks down when we consider real objects such as Freddo wrappers, which are subject to additional influences such as their own inertia. What happens when we introduce something a little more substantial?
 
-Looking out of the window recently, I was inspired by the waves rippling through grass as the wind moved over it. What would happen if we planted grass under the Double Gyre? Modelling the grass blades as flexible columns, and decoupling the $x$ and $y$ components so that each blade behaves as two independent springs, this is what I got:
+Looking out of the window recently, I was inspired by the waves rippling through grass as the wind moved over it. What would happen if we planted grass under the Double Gyre? Modelling the grass blades as flexible columns, and decoupling the $$x$$ and $$y$$ components so that each blade behaves as two independent springs, this is what I got:
 
 {% include figure image_path="/assets/images/grassy_gyre.gif" alt="The grassy Double Gyre" caption="The grassy Double Gyre" %}
 
