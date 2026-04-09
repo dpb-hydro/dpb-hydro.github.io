@@ -54,7 +54,7 @@ Either way, the resulting motion is a familiar one: the pendulum swings back and
 
 ### Forced pendulums
 
-So what about clocks? A clock pendulum runs for a long time without any decrease in amplitude. What's going on here? The effect of damping is overcome by giving the pendulum small pushes. We can make a crude simulation of this by applying the forcing $F$ whenever the pendulum is swinging outwards. A real clock mechanism is more sophisticated than this, but the principle is clear:
+So what about clocks? A clock pendulum runs for a long time without any decrease in amplitude. What's going on here? The effect of damping is overcome by giving the pendulum small pushes. We can make a crude simulation of this by applying the forcing whenever the pendulum is swinging outwards. A real clock mechanism is more sophisticated than this, but the principle is clear:
 
 {% include figure image_path="/assets/images/clock_pendulum.gif" alt="A crude clock pendulum" caption="A crude clock pendulum" %}
 
