@@ -88,7 +88,7 @@ Another classic of dynamical systems is the three-body problem, which has perple
 
 {% include figure image_path="/assets/images/three_body_short.gif" alt="The Three-body Problem" caption="The Three-body Problem" %}
 
-I won't attempt to say anything profound here — this is purely for aesthetic enjoyment, much like a lava lamp. The one concession I will make is to run the simulation for longer, to see whether a bound pair eventually forms with the third body being ejected:
+I won't attempt to say anything profound here, this is purely for aesthetic enjoyment, much like a lava lamp. The one concession I will make is to run the simulation for longer, to see whether a bound pair eventually forms with the third body being ejected:
 
 {% include figure image_path="/assets/images/three_body_long.gif" alt="Long-time simulation of the Three-body Problem" caption="Long-time simulation of the Three-body Problem" %}
 
