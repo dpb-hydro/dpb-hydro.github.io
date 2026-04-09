@@ -4,14 +4,22 @@ title: "Gallery"
 permalink: /gallery/
 gallery:
 
-  - url: /assets/images/pendulum.gif
-    image_path: /assets/images/pendulum.gif
-    alt: "Animation of a forced damped pendulum"
-    title: "Fun with pendulums"
+  - url: /assets/images/three_body_short.gif
+    image_path: /assets/images/three_body_short.gif
+    alt: "The Three-body Problem"
+    title: "The Three-body Problem"
   - url: /assets/images/double_gyre.gif
     image_path: /assets/images/double_gyre.gif
-    alt: "Animation of the Double Gyre toy problem"
+    alt: "The mesmerising Double Gyre"
     title: "The mesmerising Double Gyre"
+  - url: /assets/images/forced_pendulum.gif
+    image_path: /assets/images/forced_pendulum.gif
+    alt: "A continuously forced pendulum"
+    title: "A continuously forced pendulum"
+  - url: /assets/images/unforced_pendulum_dropped.gif
+    image_path: /assets/images/unforced_pendulum_dropped.gif
+    alt: "An unforced pendulum dropped from rest"
+    title: "An unforced pendulum dropped from rest"
   - url: /assets/images/fullsize_jules-meetup.jpeg
     image_path: /assets/images/resized_jules-meetup.jpeg
     alt: "JULES meeting group photo"
