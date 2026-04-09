@@ -34,11 +34,11 @@ $$\text{Internal forces} = \text{External force}.$$
 
 Conceptually, what do the internal forces represent?
 
-- $m l \ddot{\theta}$: inertia, because the pendulum has mass and is accelerating,
-- $c l \dot{\theta}$: the effect of resistances,
-- $m g \sin\theta$: the restoring force pulling the weight back towards the centre.
+- \(m l \ddot{\theta}\): inertia, because the pendulum has mass and is accelerating,
+- \(c l \dot{\theta}\): the effect of resistances,
+- \(m g \sin\theta\): the restoring force pulling the weight back towards the centre.
 
-The external force, $F$, is simply an arbitrary applied force. We can set it to whatever we like, depending on how we want to drive the pendulum.
+The external force, \(F\), is simply an arbitrary applied force. We can set it to whatever we like, depending on how we want to drive the pendulum.
 
 ### Unforced pendulums
 
