@@ -2,7 +2,7 @@
 layout: single
 title: "Hickory Dickory Dock"
 date: 2026-03-30 15:05:00 +0100
-last_modified_at: 2026-04-09 11:00:00 +0100
+last_modified_at: 2026-04-15 16:56:00 +0100
 categories: reflections
 tags: dynamics epistemology
 header:
@@ -20,6 +20,8 @@ One of my maths teachers at secondary school had a great saying: *when it's tric
 Differential equations are a quintessential subject across all branches of engineering. For me, the most vivid example is the undergraduate course in structural dynamics that I took. As fundamental as the subject is, I'll confess my intuition for it has always been a little shaky (pun intended). But when differential equations describe systems we encounter every day, that needn't be the case. What has genuinely helped me is making animations of the physical systems themselves, rather than simply plotting phase diagrams of response variables. The difference, I think, is that experiencing time as a spatial dimension is deeply counterintuitive, whereas when it unfolds as we actually experience it, even complex behaviour becomes much more legible. It's no coincidence that chaos theory emerged so late; we simply lacked the computational tools to visualise it.
 
 Recently I've been getting to grips with the Julia ecosystem, and have put together `Springies.jl`, a wrapper around [OrdinaryDiffEq.jl](https://docs.sciml.ai/OrdinaryDiffEq/stable/) for exploring dynamical systems visually. There's no better way to build intuition than to play. When I did work experience at a mechanical engineering firm, I was envious of how tactile the work was; engineers could pick up, modify, and test the things they were designing. That kind of hands-on tinkering is harder to come by in civil engineering. In the world of computational modelling, a sandbox for playing with systems of ODEs goes some way towards filling that gap. Below are some of the animations I've made with this tool, which I wanted to share here because, above all else, they're a lot of fun!
+
+You can view the `Springies.jl` project and the code used to produce these animations on my [GitHub](https://github.com/dpb-hydro/Springies.jl).
 
 ## Pendulums
 
