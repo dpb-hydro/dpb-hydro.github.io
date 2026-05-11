@@ -19,7 +19,7 @@ One of my maths teachers at secondary school had a great saying: *when it's tric
 
 Differential equations are a quintessential subject across all branches of engineering. For me, the most vivid example is the undergraduate course in structural dynamics that I took. As fundamental as the subject is, I'll confess my intuition for it has always been a little shaky (pun intended). But when differential equations describe systems we encounter every day, that needn't be the case. What I have found helpful has been making animations of the physical systems themselves, rather than simply plotting phase diagrams of response variables. The difference, I think, is that experiencing time as a spatial dimension is deeply counterintuitive, whereas when it unfolds as we actually experience it, complex behaviour can become much more legible.
 
-Recently I've been getting to grips with the Julia ecosystem, and have put together `Springies.jl`, a wrapper around [OrdinaryDiffEq.jl](https://docs.sciml.ai/OrdinaryDiffEq/stable/) for exploring dynamical systems visually. There's no better way to build intuition than to play. When I did work experience at a mechanical engineering firm, I was envious of how tactile the work was; engineers could pick up amd fiddle with the things they were designing. That kind of hands-on tinkering is harder to come by in civil engineering. In the world of computational modelling, a sandbox for playing with systems of ODEs goes some way towards filling this gap. Below are some of the animations I've made with this tool, which I wanted to share here because, above all else, they're a lot of fun!
+Recently I've been getting to grips with the Julia ecosystem, and have put together `Springies.jl`, a wrapper around [OrdinaryDiffEq.jl](https://docs.sciml.ai/OrdinaryDiffEq/stable/) for exploring dynamical systems visually. There's no better way to build intuition than to play. When I did work experience at a mechanical engineering firm, I was envious of how tactile the work was; engineers could pick up and fiddle with the things they were designing. That kind of hands-on tinkering is harder to come by in civil engineering. In the world of computational modelling, a sandbox for playing with systems of ODEs goes some way towards filling this gap. Below are some of the animations I've made with this tool, which I wanted to share here because, above all else, they're a lot of fun!
 
 You can view the `Springies.jl` project and the code used to produce these animations on my [GitHub](https://github.com/dpb-hydro/Springies.jl).
 
@@ -55,7 +55,7 @@ Either way, the resulting motion is a familiar one: the pendulum swings back and
 
 ### Forced pendulums
 
-So what about clocks? A clock pendulum runs for a long time without any decrease in amplitude. What's going on here? The effect of damping is overcome by giving the pendulum small pushes. We can make a crude simulation of this by applying the forcing whenever the pendulum is swinging outwards. A real clock mechanism is more sophisticated than this, but this captures the basic idea:
+So what about clocks? A clock pendulum runs for a long time without any decrease in amplitude. What's going on here? The effect of damping is overcome by giving the pendulum small pushes. We can make a crude simulation of this by applying the forcing whenever the pendulum is swinging outwards. A real clock mechanism is more sophisticated than this, but it captures the basic idea:
 
 {% include figure image_path="/assets/images/clock_pendulum.gif" alt="A crude clock pendulum" caption="A crude clock pendulum" %}
 
@@ -63,7 +63,7 @@ This clock pendulum would need a bit of tuning to count in seconds!
 
 When we learn about pendulums at school, the go-to example is often a child being pushed on a playground swing. While this does illustrate the concept, I found the analogy got in the way when it came to thinking about buildings shaking in earthquakes. Here I must invoke [this point](https://youtube.com/clip/Ugkx0h_TQUrvBg3TiopIKHIlLCO1biL5VXn6?si=IkY3h2mcP-XfosF4) by Prof Eric Laithwaite. In the swing example, the pusher can **only** push at the natural frequency of the child, but in other systems, the force can be applied at any time. When an earthquake shakes a building, the ground doesn't need to wait for the building to complete a full oscillation before delivering another push.
 
-`Springies.jl` lets us visualise this more cleanly than a physical model would. The natural instinct for a physical experiment might be to shake the entire pendulum setup, but this makes it conceptually difficult to separate the forcing from the response. Instead, in `Springies.jl` we can simply simulate an arbitrary external force acting directly on the pendulum weight:
+`Springies.jl` lets us visualise this more cleanly than a physical model would. The natural instinct for a physical experiment might be to shake the entire pendulum setup, but this makes it conceptually difficult to separate the forcing from the response. Instead, in `Springies.jl`, we can simply apply an arbitrary external force directly to the pendulum:
 
 {% include figure image_path="/assets/images/forced_pendulum.gif" alt="A continuously forced pendulum" caption="A continuously forced pendulum" %}
 
