@@ -14,7 +14,7 @@ baseurl                  : # Site subpath e.g. "/blog"
 repository               : "dpb-hydro/dpb-hydro.github.io"        # GitHub username/repo-name
 teaser                   : "/assets/images/green_man_500x300.svg" # Path to fallback teaser image
 # logo                     : "/assets/images/green_man_500x300.svg"   # Path to masthead logo
-# masthead_title           : "Dan Bartley" # Custom title for masthead
+masthead_title           : "<i class='fas fa-house'></i>" # Custom title for masthead
 breadcrumbs              : false # Use breadcrumbs (for deep sites)
 words_per_minute         : 200 # For estimating reading time of posts
 enable_copy_code_button  : true # Enable copy code button in code blocks

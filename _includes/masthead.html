@@ -1,29 +1,27 @@
-<div class="masthead__inner-wrap">
-  <nav id="site-nav" class="greedy-nav">
-    
-    <div class="nav-column nav-left">
-      <ul class="visible-links">
-        <li class="masthead__menu-item"><a href="{{ '/about/' | relative_url }}">About</a></li>
-        <li class="masthead__menu-item"><a href="{{ '/research/' | relative_url }}">Research</a></li>
-        <li class="masthead__menu-item"><a href="{{ '/news/' | relative_url }}">News</a></li>
-      </ul>
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {% if site.masthead_title %}
+            {{ site.masthead_title }}
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </a>
+        <ul class="visible-links">
+          {% for link in site.data.navigation.main %}
+            <li class="masthead__menu-item">
+              <a href="{{ link.url | relative_url }}"{% if link.url == page.url %} class="active"{% endif %}>{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links dropdown"></ul>
+      </nav>
     </div>
-
-    <a class="site-title" href="{{ '/' | relative_url }}">
-      DAN BARTLEY
-    </a>
-
-    <div class="nav-column nav-right">
-      <ul class="visible-links">
-        <li class="masthead__menu-item"><a href="{{ '/cv/' | relative_url }}">CV</a></li>
-        <li class="masthead__menu-item"><a href="{{ '/gallery/' | relative_url }}">Gallery</a></li>
-        <li class="masthead__menu-item">
-          <button class="search__toggle" type="button">
-            <i class="fas fa-search"></i>
-          </button>
-        </li>
-      </ul>
-    </div>
-
-  </nav>
+  </div>
 </div>

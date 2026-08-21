@@ -13,6 +13,10 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
+    <div class="site-logo-banner">
+      <img src="{{ '/assets/images/front_logo.svg' | relative_url }}" alt="{{ site.title }}">
+    </div>
+
     <div class="initial-content">
       {{ content }}
       {% include after-content.html %}

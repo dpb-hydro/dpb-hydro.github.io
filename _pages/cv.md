@@ -2,13 +2,14 @@
 layout: single
 permalink: /cv/
 title: CV
+display_title: Curriculum Vitae
 author_profile: true
 classes: wide
 ---
 
 ## Technical Skills
 
-#### Specialisations
+#### Specialisms
 
 * Earth system modelling
 * Computational methods
@@ -38,9 +39,3 @@ The Hong Kong University of Science and Technology 🇭🇰
 *2015 - 2019*  
 Imperial College London 🇬🇧  
 The Hong Kong Polytechnic University 🇭🇰
-
-## Professional Experience
-
-#### Research Assistant (Wetland hydrology)
-*2019 - 2021*  
-The University of Hong Kong 🇭🇰

@@ -27,6 +27,30 @@ body {
 }
 
 /* ============================================================
+   LOGO BANNER
+   ============================================================ */
+
+.site-logo-banner {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 20px;
+
+  img {
+    width: 40%;
+    max-width: 800px;
+    min-width: 400px;
+    height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-logo-banner {
+    padding-top: 90px;
+    padding-bottom: 15px;
+  }
+}
+
+/* ============================================================
    MAIN CONTENT AREA
    ============================================================ */
 #main {
@@ -34,20 +58,18 @@ body {
   border: 3px solid #00ff88 !important;
   border-radius: 50px 0 50px 0 !important;
   padding: 40px !important;
-  margin: 120px auto 50px auto !important;  /* increased top margin */
-  max-width: 1200px !important;
+  margin: 20px auto 50px auto !important;  /* small gap below the logo banner */
+  max-width: 1200px !important;  /* gives it a width to centre within */
   box-shadow: 0 0 20px rgba(0, 255, 136, 0.1);
 }
 
 .layout--splash #main {
   padding: 0 !important;
-  margin: 120px auto 50px auto !important;  /* match the top offset */
+  margin: 20px auto 50px auto !important;
 }
 
-@media (max-width: 600px) {
-  #main {
-    margin-top: 90px !important;
-  }
+.initial-content {
+  padding-top: 0 !important;  /* logo banner now handles top clearance */
 }
 
 .splash .page__content {
@@ -93,49 +115,4 @@ body {
 .greedy-nav button.greedy-nav__toggle .navicon:before,
 .greedy-nav button.greedy-nav__toggle .navicon:after {
   background: #fff !important;
-}
-
-/* ============================================================
-   HERO
-   ============================================================ */
-.initial-content {
-  padding-top: 120px !important;  /* match the #main offset */
-}
-
-.page__hero--overlay {
-  position: relative;
-  margin-top: 0 !important;
-  padding-top: 2em !important;
-  min-height: 0 !important;
-}
-
-@media (max-width: 600px) {
-  .initial-content {
-    padding-top: 90px !important;
-  }
-}
-
-.page__hero--overlay .btn {
-  position: absolute;
-  bottom: 0px;
-  right: 60px;
-}
-
-.layout--splash .page__hero--overlay {
-  width: 100% !important;
-  max-width: 100% !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: 30% !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;  /* prevents tiling */
-  height: 20vh !important;
-  background-color: #423f3f !important;
-}
-
-@media (orientation: portrait) {
-  .layout--splash .page__hero--overlay {
-    height: 8vh !important;  /* adjust to taste */
-  }
 }

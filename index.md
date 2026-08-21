@@ -1,14 +1,9 @@
 ---
-layout: splash
+layout: single
 permalink: /
-header:
-  actions:
-    - label: "<i class='fa-solid fa-sun-plant-wilt'></i> Learn more"
-      url: "/reflections/omnia/"
-  overlay_color: "#423f3f"
-  overlay_filter: 0
-  overlay_image: /assets/images/front_logo.svg
 title: Home
+display_title: Hi there!
+author_profile: true
 feature_row:
   - image_path: /assets/images/resized_home_page_profile.jpg 
     alt: "About me"
@@ -33,8 +28,6 @@ feature_row:
     btn_label: "Learn more"
 classes: wide
 ---
-
-# Hi there!
 
 My name is Dan, and I'm a PhD student in the department of Civil and Environmental Engineering at Imperial College London.
 
