@@ -20,30 +20,17 @@ body {
   background-repeat: no-repeat !important;
 }
 
-@media (max-width: 768px) {
-  body {
-    background-attachment: scroll !important;
-  }
-}
-
 /* ============================================================
    LOGO BANNER
    ============================================================ */
 .site-logo-banner {
   text-align: center;
-  padding-top: 20px;    /* was 120px — nav is back in normal flow, so this is just breathing room now */
+  padding-top: 20px;
 
   img {
     width: 80vw;
     max-width: 800px;
     height: auto;
-  }
-}
-
-@media (max-width: 600px) {
-  .site-logo-banner {
-    padding-top: 15px;  /* was 90px */
-    padding-bottom: 15px;
   }
 }
 
@@ -58,10 +45,6 @@ body {
   margin: 20px auto 50px auto !important;
   max-width: 1200px !important;
   box-shadow: 0 0 20px rgba(0, 255, 136, 0.1);
-}
-
-.initial-content {
-  padding-top: 0 !important;  /* logo banner handles top clearance */
 }
 
 /* ============================================================
