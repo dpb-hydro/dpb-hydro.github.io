@@ -15,7 +15,7 @@ body {
   background-color: #000000 !important;
   background-image: url('../images/motif.png') !important;
   background-size: cover !important;
-  background-position: center !important;
+  background-position: top center !important;
   background-attachment: fixed !important;
   background-repeat: no-repeat !important;
 }
@@ -34,8 +34,8 @@ body {
   padding-top: 20px;    /* was 120px — nav is back in normal flow, so this is just breathing room now */
 
   img {
-    width: 30vw;
-    min-width: 200px;
+    width: 80vw;
+    max-width: 800px;
     height: auto;
   }
 }
