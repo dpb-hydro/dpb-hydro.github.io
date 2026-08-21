@@ -29,23 +29,20 @@ body {
 /* ============================================================
    LOGO BANNER
    ============================================================ */
-
 .site-logo-banner {
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 20px;
+  padding-top: 20px;    /* was 120px — nav is back in normal flow, so this is just breathing room now */
 
   img {
-    width: 40%;
-    max-width: 800px;
-    min-width: 400px;
+    width: 30vw;
+    min-width: 500px;
     height: auto;
   }
 }
 
 @media (max-width: 600px) {
   .site-logo-banner {
-    padding-top: 90px;
+    padding-top: 15px;  /* was 90px */
     padding-bottom: 15px;
   }
 }
@@ -58,61 +55,19 @@ body {
   border: 3px solid #00ff88 !important;
   border-radius: 50px 0 50px 0 !important;
   padding: 40px !important;
-  margin: 20px auto 50px auto !important;  /* small gap below the logo banner */
-  max-width: 1200px !important;  /* gives it a width to centre within */
+  margin: 20px auto 50px auto !important;
+  max-width: 1200px !important;
   box-shadow: 0 0 20px rgba(0, 255, 136, 0.1);
 }
 
-.layout--splash #main {
-  padding: 0 !important;
-  margin: 20px auto 50px auto !important;
-}
-
 .initial-content {
-  padding-top: 0 !important;  /* logo banner now handles top clearance */
-}
-
-.splash .page__content {
-  max-width: 740px;
-  padding: 40px !important;
-  margin: 0 auto !important;
-  text-align: left;
-}
-
-.layout--splash .page__title {
-  display: none;
+  padding-top: 0 !important;  /* logo banner handles top clearance */
 }
 
 /* ============================================================
-   MASTHEAD / NAVIGATION
+   MASTHEAD
    ============================================================ */
-.masthead {
-  background-color: transparent !important;
-  border-bottom: none !important;
-  position: absolute !important;
-  width: 100%;
-  z-index: 20;
-}
-
-.site-title,
-.masthead__menu-item a,
-.greedy-nav .search__toggle {
-  color: #fff !important;
-  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-}
 
 .greedy-nav {
   background: transparent !important;
-}
-
-.greedy-nav .visible-links a:hover,
-.greedy-nav .site-title:hover {
-  color: #00ff88 !important;
-}
-
-/* hamburger icon lines */
-.greedy-nav button.greedy-nav__toggle .navicon,
-.greedy-nav button.greedy-nav__toggle .navicon:before,
-.greedy-nav button.greedy-nav__toggle .navicon:after {
-  background: #fff !important;
 }
