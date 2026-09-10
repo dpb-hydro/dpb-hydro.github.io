@@ -12,14 +12,14 @@ feature_row:
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/resized_pendulum_stock.jpg
+  - image_path: /assets/images/three_body_short.gif
     alt: "A pendulum"
     title: "My research"
-    excerpt: "Computation for earth system modelling"
+    excerpt: "Computation for land system management"
     url: "/research/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/resized_treachery.jpg
+  - image_path: /assets/images/presenting.jpeg
     alt: "The Treachery of Images painting"
     title: "News"
     excerpt: "My travels, interests, and reflections"
@@ -31,7 +31,7 @@ classes: wide
 
 My name is Dan, and I'm a PhD student in the department of Civil and Environmental Engineering at Imperial College London.
 
-My interest lies in the numerical modelling of earth systems, with a primary focus on land surface ecosystems. 
+I am interested in the numerical modelling of earth systems, with a main focus on land surface ecosystems.
 
 On this website you can find out more about my background, research, and broader interests.
 
