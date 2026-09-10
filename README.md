@@ -1,6 +1,8 @@
 # Notes to self
 
-## Local hosting:
+Welcome to the source code and material for my [website](https://dpb-hydro.github.io/). Below are some notes for myself for development.
+
+## Local hosting
 
 Set installation location to local folder:
 
